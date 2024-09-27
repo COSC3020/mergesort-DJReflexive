@@ -18,11 +18,11 @@ markdown file.
 
 ## My Runtime Analysis
 
-First, addressing the base case where the length is equal to 0 or 1, we actuallyget a 
+First, addressing the base case where the length is equal to 0 or 1, we actually get a 
 constant run time since an array that is empty or only has 1 element is already sorted. 
-However, we are going to look at the more general case wherethe length is greater than 1.
+However, we are going to look at the more general case where the length is greater than 1.
 
-Going into the first loop, the program will run a time complexity of $\Theta(logn)$ to 
+Going into the first loop, the program will run with a time complexity of $\Theta(logn)$ to 
 divide the array into groupings and process every grouping in the array.
 
 Then pairs of groupings are compared in the merge() method. The two groupings are then 
