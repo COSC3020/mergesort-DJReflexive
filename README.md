@@ -34,10 +34,10 @@ ordered in such a way that there is a swap occuring every iteration. This proces
 time complexity an additional $\Theta(n)$ since every element goes through a swap call.
 
 Combining the all three time complexities, we see that the worst case complexity is 
-$\Theta(n^2logn)$. In the average case, the final complexity would resemble $\Theta(n^2)$, 
-however, since we are assuming that the merge function swaps on every iteration, this 
-increases the complexity. But since we are only interested in the worst case scenerio, 
-$\Theta(n^2logn)$ is the final complexity.
+$\Theta(n^2logn)$. In the average case, the final complexity would also resemble 
+$\Theta(n^2logn)$, even though we are assuming that the merge function swaps on every 
+iteration, they are the same complexity.
+
 
 # Sources
 
