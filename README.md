@@ -31,8 +31,7 @@ two groups. This process takes $\Theta(n)$.
 
 Since we are interested in the worst case scenerio, we are going to assume that the data is 
 ordered in such a way that there is a swap occuring every iteration. This process adds to the 
-time complexity an additional complexity $\Theta(n)$ since every element goes through
-a swap call.
+time complexity an additional $\Theta(n)$ since every element goes through a swap call.
 
 Combining the all three time complexities, we see that the worst case complexity is 
 $\Theta(n^2logn)$. In the average case, the final complexity would resemble $\Theta(n^2)$, 
