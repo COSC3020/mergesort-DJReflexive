@@ -30,12 +30,12 @@ iterated through, and it checked if elements are out of order by cross comparing
 two groups. This process takes $\Theta(n)$. 
 
 Since we are interested in the worst case scenerio, we are going to assume that the data is 
-ordered in such a way that there is a swap occuring every iteration. This process executes 
-with adds to the time complexity an addition complexity $\Theta(n)$ since every element has 
+ordered in such a way that there is a swap occuring every iteration. This process adds to the 
+time complexity an additional complexity $\Theta(n)$ since every element goes through
 a swap call.
 
-Combining the all three time complexities, we see that the worst case complexity is $\Theta
-(n^2logn)$. In the average case, the final complexity would resemble $\Theta(nlogn)$, 
+Combining the all three time complexities, we see that the worst case complexity is 
+$\Theta(n^2logn)$. In the average case, the final complexity would resemble $\Theta(n^2)$, 
 however, since we are assuming that the merge function swaps on every iteration, this 
 increases the complexity. But since we are only interested in the worst case scenerio, 
 $\Theta(n^2logn)$ is the final complexity.
